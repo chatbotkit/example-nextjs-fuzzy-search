@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "resources": [
+    {
+      "type": "dataset",
+      "slug": "default",
+      "id": "cluzvuwje0t44yr0vwefhfa1u",
+      "name": "ChatBotKit Docs",
+      "description": "A dataset that contains the ChatBotKit docs.",
+      "properties": {}
+    },
+    {
+      "type": "sitemapIntegration",
+      "name": "ChatBotKit Docs",
+      "description": "A sitemap integration that sync the ChatBotKit docs with the dataset.",
+      "properties": {
+        "url": "https://chatbotkit.com/docs",
+        "datasetId": "cluzvuwje0t44yr0vwefhfa1u"
+      },
+      "id": "cluzvwp8z0t46yr0vrigfgr18"
+    }
+  ]
+}
